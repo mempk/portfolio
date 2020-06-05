@@ -153,7 +153,7 @@ li{
 
 }
 .component{
-  width:22%;
+  width:26%;
   background-color: rgb(110, 112, 114,0);
   padding: 20px;
   margin-right:auto ;
@@ -179,7 +179,6 @@ li{
 
 }
 .aboutDetails{
-  width: 29rem;
   box-shadow: 0 0 12px 0 white;
   margin: 30px;
 }
@@ -190,14 +189,14 @@ li{
 
 .actualContent > .card{
 
-  flex: 1 1 29rem;
+  flex: 1 1 26rem;
   margin: 15px;
 
 }
 
 
 .actualContent{
-  width:78%;
+  width:70%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -288,7 +287,7 @@ hr{
     margin-right: auto;
   }
   .braces{
-    font-size: 120px;
+    font-size: 130px;
     font-weight: lighter;
   }
   .name{
