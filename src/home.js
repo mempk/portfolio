@@ -105,7 +105,7 @@ class Home extends Component{
             {this.state.main && 
             <div className="container">
 
-            <p style={{fontSize:"22px"}}> This section highlight my ever growing achievement and experience in the field of Computer Science. This section includes my relevant experiences,  projects, my involvement and awards I have been awarded. </p>
+            <p> This section highlight my ever growing achievement and experience in the field of Computer Science. This section includes my relevant experiences,  projects, my involvement and awards I have been awarded. </p>
             <br>
             </br>
             
@@ -168,7 +168,7 @@ class Home extends Component{
             </div>}
 
 
-
+            <div className="container">
             {this.state.fullstack && 
             <div id="fullstack" className=" card largecard details fullstack">
 
@@ -256,6 +256,7 @@ class Home extends Component{
         
        
             </div>}
+            </div>
 
             <div className="container">
 

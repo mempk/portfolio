@@ -64,10 +64,10 @@ class About extends Component{
 
                     <div className="card aboutDetails" >
                     <div className="card-body">
-                    <h5 class="title1">Bachelor of Science in Computer Science</h5>
-                    <h5 class="card-title1"> University of Mississippi</h5>
-                    <h5 class="card-title1"> Aug 2016 – May 2020</h5>
-                    <h5 class="desc"> 
+                    <h5  style={{padding:'2px'}}class="title1">Bachelor of Science in Computer Science</h5>
+                    <h5 style={{padding:'2px'}} class="card-title1"> University of Mississippi</h5>
+                    <h5 style={{padding:'2px'}} class="card-title1"> Aug 2016 – May 2020</h5>
+                    <h5 style={{padding:'2px'}} class="desc"> 
                     <li>Cumulative GPA : 3.85</li>
                     <li>Magna Cum Laude, Chancellor Honors List, Phi Kappa Phi Scholar</li>
                     <li>Minor: Mathematics</li>
@@ -76,7 +76,7 @@ class About extends Component{
                     </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card uniCard">
                     <img className="card-img-top2 outreach" src={olemiss} alt="Card image cap"/>
                     
                     </div>

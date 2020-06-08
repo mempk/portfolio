@@ -30,13 +30,14 @@ class Resume extends Component{
                 <div className="component">
 
                 <p className="tabTitle">Resume</p>
+                <br/>
                 <p className="downloadLink">Please<a className="href" href="https://drive.google.com/file/d/1bAeWeqRBYfQ2g596YuZLeOv7d1By9bIJ/view" >click here</a>to view or download pdf version of my resume</p>
            
 
                 </div>
 
                 <div className="actualContent">
-                    <div className="card" style={{marginTop:"0px"}}>
+                    <div className="card resumeCard" style={{marginTop:"5px", width:'100%'}}>
 
                     <img src={resume} width="100%"/>
 

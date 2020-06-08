@@ -96,7 +96,7 @@ class Introduction extends Component{
 
         <div className="title jumbotron">
 
-            <p><span className="printStatement">System.out.println </span> <span className="braces">&#40;</span><span className="name"> "Madhav Prasad Koirala" <br/> "CS Portfolio"</span><span className="braces">&#41;</span></p>
+            <h3><span className="braces">&#40;</span><span className="name"> "Madhav Prasad Koirala" <br/> "CS Portfolio"</span><span className="braces">&#41;</span></h3>
 
         
 
