@@ -105,7 +105,7 @@ class Home extends Component{
             {this.state.main && 
             <div className="container">
 
-            <p> This section highlight my ever growing achievement and experience in the field of Computer Science. This section includes my relevant experiences,  projects, my involvement and awards I have been awarded. </p>
+            <p> This section highlights my ever growing achievement and experience in the field of Computer Science, includes my relevant experiences,  projects, my involvement and awards I have been awarded. </p>
             <br>
             </br>
             
