@@ -270,13 +270,23 @@ hr{
   .card{
     margin-left: auto;
     margin-right: auto;
+    height: auto;
   }
   p.tabTitle{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     margin: 0 auto 0 auto;
     padding-top: 10px;
   
+  }
+  .largecard > img{
+    visibility: hidden;
+    display: none;
+    
+  }
+
+  .details{
+    height: auto;
   }
 
   .printStatement{
@@ -286,6 +296,17 @@ hr{
   .braces{
     font-size: 70px;
     font-weight: lighter;
+  }
+  .desc{
+    font-size:15px ;
+    padding:7px 7px 20px 7px;
+    margin-left: 0px;
+  }
+  .card-title1{
+    font-size: 17px;
+  }
+  .title1{
+    font-size: 18px;
   }
   .name{
   
@@ -307,6 +328,22 @@ hr{
 
   }
 
+  .desc{
+    font-size:16px ;
+    padding:7px 7px 20px 7px;
+    margin-left: 0px;
+  }
+
+  .largecard > img{
+    visibility: hidden;
+    display: none;
+  }
+
+  .largecard{
+    height: auto;
+  }
+
+ 
 
   .card{
     margin-left: auto;

@@ -8,10 +8,6 @@ import ge from './goodeats.png';
 import rapp from './outreachRAPP.png';
 
 
-
-
-
-
 class Home extends Component{
 
 
@@ -173,7 +169,7 @@ class Home extends Component{
             <div id="fullstack" className=" card largecard details fullstack">
 
                                 
-            <img  style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={outreach} alt="Card image cap"/>
+            <img className="descImage" style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={outreach} alt="Card image cap"/>
            
                
             <div className="details">
@@ -196,7 +192,7 @@ class Home extends Component{
             <div id= "webdeveloper" className=" card largecard details webdeveloper">
 
                     
-                    <img  style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={icn} alt="Card image cap"/>
+                    <img className="descImage"  style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={icn} alt="Card image cap"/>
 
                     <div className="details">
                     <span onClick={this.displayWD} className="arrow" aria-hidden="true">&times;</span>
@@ -220,7 +216,7 @@ class Home extends Component{
             <div id="DistanceLearning" className=" card largecard details ">
 
                     
-                    <img  style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={dl} alt="Card image cap"/>
+                    <img className="descImage" style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={dl} alt="Card image cap"/>
 
                     <div className="details">
                     <span onClick={this.displayDL} className="arrow" aria-hidden="true">&times;</span>
@@ -241,7 +237,7 @@ class Home extends Component{
             <div id="itmedia"className=" card largecard details">
 
                     
-                    <img  style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={itmedia} alt="Card image cap"/>
+                    <img  className="descImage" style={{float:"left",marginRight:"25px"}}className="card-img-top outreach" src={itmedia} alt="Card image cap"/>
 
                     <div className="details">
                     <span onClick={this.displayIT} className="arrow" aria-hidden="true">&times;</span>
